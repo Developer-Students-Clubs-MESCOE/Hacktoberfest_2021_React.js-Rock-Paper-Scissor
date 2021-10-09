@@ -40,7 +40,7 @@ const ScoreBoard = () => {
   };
 
   const handleReset = (e) => {
-    
+    //complete function
   };
 
   const handleHistory = (e) => {
