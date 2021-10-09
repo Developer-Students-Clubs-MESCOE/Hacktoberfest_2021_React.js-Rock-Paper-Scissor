@@ -11,6 +11,8 @@
 
 
 ## How to run the project?
-1.After cloning the project run 'npm install' in the working directory through command prompt
-2.Run the command 'npm start' in the command prompt.
-3.This will start the project into your local machine.
+
+
+1.After cloning the project run 'npm install' in the working directory through command prompt.</br>
+2.Run the command 'npm start' in the command prompt.</br>
+3.This will start the project into your local machine.</br>
