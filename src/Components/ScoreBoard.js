@@ -40,27 +40,7 @@ const ScoreBoard = () => {
   };
 
   const handleReset = (e) => {
-    try {
-      if (
-        localStorage.getItem("UserScore") &&
-        localStorage.getItem("CompScore")
-      ) {
-        localStorage.removeItem("UserScore");
-        localStorage.removeItem("CompScore");
-      }
-      Context.setCompScore(0);
-      Context.setUserScore(0);
-
-      return toast("Score Reset Successfully..!", {
-        type: "success",
-        position: Context.positionVal,
-      });
-    } catch (error) {
-      return toast("Score Reset unsuccessfully..!", {
-        type: "err",
-        position: Context.positionVal,
-      });
-    }
+    
   };
 
   const handleHistory = (e) => {
